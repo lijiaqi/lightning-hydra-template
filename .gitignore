@@ -1,3 +1,9 @@
+# Lightning-Hydra-Template
+configs/local/default.yaml
+/dataroot/
+/logs/
+.env
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -143,12 +149,6 @@ dmypy.json
 *.h5
 *.tar
 *.tar.gz
-
-# Lightning-Hydra-Template
-configs/local/default.yaml
-/data/
-/logs/
-.env
 
 # Aim logging
 .aim

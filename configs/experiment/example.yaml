@@ -4,7 +4,7 @@
 # python train.py experiment=example
 
 defaults:
-  - override /data: mnist
+  - override /dataset: mnist
   - override /model: mnist
   - override /callbacks: default
   - override /trainer: default
@@ -30,7 +30,7 @@ model:
     lin3_size: 64
   compile: false
 
-data:
+dataset:
   batch_size: 64
 
 logger:

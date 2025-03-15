@@ -1133,7 +1133,7 @@ So any file can be easily imported into any other file like so:
 
 ```python
 from project_name.models.mnist_module import MNISTLitModule
-from project_name.data.mnist_datamodule import MNISTDataModule
+from project_name.datasets.mnist_datamodule import MNISTDataModule
 ```
 
 </details>
